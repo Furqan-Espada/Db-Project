@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rozee.pk Database ERD — 30 Tables</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0f1117;
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #1F3864 0%, #2E75B6 100%);
+    padding: 24px 40px;
+    border-bottom: 3px solid #2E75B6;
+  }
+  header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+  header p {
+    color: #D9E2F3;
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .legend {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #D9E2F3;
+  }
+  .dot {
+    width: 12px; height: 12px; border-radius: 3px;
+  }
+  .dot-original { background: #375623; border: 1px solid #4a7a30; }
+  .dot-new      { background: #7B0D0D; border: 1px solid #a01515; }
+  .dot-ref      { background: #1F3864; border: 1px solid #2E75B6; }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    padding: 14px 40px;
+    background: #161b27;
+    border-bottom: 1px solid #2d3748;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls button {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid #2E75B6;
+    background: transparent;
+    color: #7bb3e8;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .controls button:hover { background: #2E75B6; color: #fff; }
+  .controls span {
+    font-size: 12px;
+    color: #718096;
+  }
+
+  #diagram-wrap {
+    padding: 30px 40px;
+    overflow: auto;
+    min-height: calc(100vh - 160px);
+  }
+  .mermaid {
+    background: #1a202c;
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid #2d3748;
+    display: inline-block;
+    min-width: 100%;
+  }
+
+  /* Zoom container */
+  #zoom-container {
+    transform-origin: top left;
+    transition: transform 0.2s;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DATABASE SYSTEMS LAB — AI Job &amp; Skill Matching Platform</h1>
+  <p>Entity Relationship Diagram &nbsp;|&nbsp; 30 Tables (10 Original + 20 New) &nbsp;|&nbsp; Furqan Ullah &amp; Syed Fahad Ali Shah</p>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-original"></div> Original 10 tables (✅ Exists)</div>
+    <div class="legend-item"><div class="dot dot-new"></div> 20 New tables (❌ Added)</div>
+    <div class="legend-item"><div class="dot dot-ref"></div> Master/Reference tables</div>
+  </div>
+</header>
+
+<div class="controls">
+  <button onclick="zoom(1.1)">＋ Zoom In</button>
+  <button onclick="zoom(0.9)">－ Zoom Out</button>
+  <button onclick="resetZoom()">⟳ Reset</button>
+  <span id="zoom-label">100%</span>
+  <span style="margin-left:auto; color:#4a5568;">Scroll to pan &nbsp;|&nbsp; Use zoom buttons to scale</span>
+</div>
+
+<div id="diagram-wrap">
+  <div id="zoom-container">
+    <div class="mermaid">
+erDiagram
+
+  %% ═══════════════════════════════════════════════
+  %% CORE / ORIGINAL TABLES
+  %% ═══════════════════════════════════════════════
+
+  USERS {
+    UUID user_id PK
+    VARCHAR email
+    VARCHAR password_hash
+    ENUM role
+    TIMESTAMP created_at
+    TIMESTAMP updated_at
+  }
+
+  JOBSEEKER_PROFILES {
+    UUID profile_id PK
+    UUID user_id FK
+    VARCHAR full_name
+    TEXT bio
+    VARCHAR phone
+    UUID city_id FK
+    ENUM gender
+    DATE date_of_birth
+    INT current_salary_pkr
+    INT expected_salary_pkr
+    ENUM job_type_preference
+    ENUM availability
+    INT profile_completion_pct
+  }
+
+  RECRUITER_PROFILES {
+    UUID recruiter_id PK
+    UUID user_id FK
+    UUID company_id FK
+    VARCHAR full_name
+    VARCHAR designation
+    VARCHAR phone
+  }
+
+  SKILLS {
+    UUID skill_id PK
+    VARCHAR name
+    VARCHAR category
+  }
+
+  USER_SKILLS {
+    UUID user_skill_id PK
+    UUID user_id FK
+    UUID skill_id FK
+    INT years_experience
+  }
+
+  JOB_POSTINGS {
+    UUID job_id PK
+    UUID recruiter_id FK
+    UUID company_id FK
+    UUID category_id FK
+    UUID industry_id FK
+    UUID city_id FK
+    VARCHAR title
+    TEXT description
+    ENUM job_type
+    INT min_salary_pkr
+    INT max_salary_pkr
+    ENUM gender_preference
+    DATE application_deadline
+    INT views_count
+    BOOLEAN is_active
+    TIMESTAMP created_at
+  }
+
+  JOB_SKILLS {
+    UUID job_skill_id PK
+    UUID job_id FK
+    UUID skill_id FK
+  }
+
+  APPLICATIONS {
+    UUID application_id PK
+    UUID job_id FK
+    UUID user_id FK
+    ENUM status
+    TEXT cover_letter
+    TIMESTAMP applied_at
+  }
+
+  MATCH_SCORES {
+    UUID score_id PK
+    UUID user_id FK
+    UUID job_id FK
+    NUMERIC compatibility_score
+    TIMESTAMP computed_at
+  }
+
+  AUDIT_LOG {
+    UUID log_id PK
+    UUID user_id FK
+    VARCHAR table_name
+    VARCHAR operation
+    JSONB old_values
+    JSONB new_values
+    TIMESTAMP logged_at
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% REFERENCE / MASTER TABLES
+  %% ═══════════════════════════════════════════════
+
+  CITIES {
+    UUID city_id PK
+    VARCHAR name
+    VARCHAR province
+  }
+
+  INDUSTRIES {
+    UUID industry_id PK
+    VARCHAR name
+  }
+
+  JOB_CATEGORIES {
+    UUID category_id PK
+    VARCHAR name
+    UUID parent_category_id FK
+  }
+
+  LANGUAGES {
+    UUID language_id PK
+    VARCHAR name
+  }
+
+  PACKAGES {
+    UUID package_id PK
+    VARCHAR name
+    NUMERIC price_pkr
+    INT job_post_limit
+    INT cv_search_limit
+    INT instamatch_credits
+    INT validity_days
+    TEXT description
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% CANDIDATE PROFILE EXTENSION TABLES
+  %% ═══════════════════════════════════════════════
+
+  EDUCATION {
+    UUID education_id PK
+    UUID user_id FK
+    VARCHAR degree_title
+    VARCHAR institution
+    VARCHAR field_of_study
+    INT start_year
+    INT end_year
+    VARCHAR grade
+  }
+
+  WORK_EXPERIENCE {
+    UUID experience_id PK
+    UUID user_id FK
+    VARCHAR job_title
+    VARCHAR company_name
+    UUID industry_id FK
+    UUID city_id FK
+    DATE start_date
+    DATE end_date
+    TEXT description
+    BOOLEAN is_current
+  }
+
+  CERTIFICATIONS {
+    UUID certification_id PK
+    UUID user_id FK
+    VARCHAR title
+    VARCHAR issuing_body
+    DATE issue_date
+    DATE expiry_date
+    VARCHAR credential_url
+  }
+
+  USER_LANGUAGES {
+    UUID user_id FK
+    UUID language_id FK
+    ENUM proficiency
+  }
+
+  SKILL_TEST_RESULTS {
+    UUID result_id PK
+    UUID user_id FK
+    UUID skill_id FK
+    NUMERIC score
+    NUMERIC percentile
+    TIMESTAMP taken_at
+    BOOLEAN is_verified
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% COMPANY TABLES
+  %% ═══════════════════════════════════════════════
+
+  COMPANIES {
+    UUID company_id PK
+    VARCHAR name
+    UUID industry_id FK
+    UUID city_id FK
+    VARCHAR logo_url
+    VARCHAR website_url
+    TEXT description
+    VARCHAR size_range
+    BOOLEAN is_verified
+    TIMESTAMP created_at
+  }
+
+  EMPLOYER_PACKAGE_SUBSCRIPTIONS {
+    UUID subscription_id PK
+    UUID company_id FK
+    UUID package_id FK
+    DATE start_date
+    DATE end_date
+    INT cv_searches_used
+    INT job_posts_used
+    BOOLEAN is_active
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% JOB ENGAGEMENT TABLES
+  %% ═══════════════════════════════════════════════
+
+  JOB_ALERTS {
+    UUID alert_id PK
+    UUID user_id FK
+    VARCHAR keyword
+    UUID city_id FK
+    UUID industry_id FK
+    INT min_salary
+    ENUM job_type
+    ENUM channel
+    ENUM frequency
+    BOOLEAN is_active
+    TIMESTAMP created_at
+  }
+
+  SAVED_JOBS {
+    UUID saved_id PK
+    UUID user_id FK
+    UUID job_id FK
+    TIMESTAMP saved_at
+  }
+
+  COMPANY_FOLLOWS {
+    UUID follow_id PK
+    UUID user_id FK
+    UUID company_id FK
+    TIMESTAMP followed_at
+  }
+
+  CV_VIEWS {
+    UUID view_id PK
+    UUID candidate_id FK
+    UUID viewer_id FK
+    UUID company_id FK
+    TIMESTAMP viewed_at
+    VARCHAR source
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% RECRUITMENT / ATS TABLES
+  %% ═══════════════════════════════════════════════
+
+  INTERVIEW_STAGES {
+    UUID stage_id PK
+    UUID application_id FK
+    VARCHAR stage_name
+    INT stage_order
+    ENUM status
+    TIMESTAMP scheduled_at
+    TIMESTAMP completed_at
+    TEXT notes
+  }
+
+  RECRUITER_NOTES {
+    UUID note_id PK
+    UUID recruiter_id FK
+    UUID candidate_id FK
+    UUID application_id FK
+    TEXT note_text
+    INT star_rating
+    TIMESTAMP created_at
+  }
+
+  NOTIFICATIONS {
+    UUID notification_id PK
+    UUID user_id FK
+    VARCHAR type
+    VARCHAR title
+    TEXT body
+    BOOLEAN is_read
+    UUID reference_id
+    TIMESTAMP created_at
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% ANALYTICS TABLE
+  %% ═══════════════════════════════════════════════
+
+  SALARY_STATS {
+    UUID stat_id PK
+    VARCHAR job_title
+    UUID industry_id FK
+    UUID city_id FK
+    NUMERIC avg_salary_pkr
+    NUMERIC min_salary_pkr
+    NUMERIC max_salary_pkr
+    INT sample_size
+    TIMESTAMP computed_at
+  }
+
+  %% ═══════════════════════════════════════════════
+  %% RELATIONSHIPS
+  %% ═══════════════════════════════════════════════
+
+  USERS ||--o| JOBSEEKER_PROFILES : "has profile"
+  USERS ||--o| RECRUITER_PROFILES : "has profile"
+  USERS ||--o{ USER_SKILLS : "has skills"
+  USERS ||--o{ APPLICATIONS : "submits"
+  USERS ||--o{ MATCH_SCORES : "scored for"
+  USERS ||--o{ AUDIT_LOG : "generates"
+  USERS ||--o{ EDUCATION : "has degrees"
+  USERS ||--o{ WORK_EXPERIENCE : "has experience"
+  USERS ||--o{ CERTIFICATIONS : "holds certs"
+  USERS ||--o{ USER_LANGUAGES : "speaks"
+  USERS ||--o{ JOB_ALERTS : "sets alerts"
+  USERS ||--o{ SAVED_JOBS : "saves jobs"
+  USERS ||--o{ COMPANY_FOLLOWS : "follows"
+  USERS ||--o{ NOTIFICATIONS : "receives"
+  USERS ||--o{ SKILL_TEST_RESULTS : "takes tests"
+  USERS ||--o{ CV_VIEWS : "CV viewed"
+
+  SKILLS ||--o{ USER_SKILLS : "assigned to users"
+  SKILLS ||--o{ JOB_SKILLS : "required by jobs"
+  SKILLS ||--o{ SKILL_TEST_RESULTS : "tested via"
+
+  JOB_POSTINGS ||--o{ JOB_SKILLS : "requires skills"
+  JOB_POSTINGS ||--o{ APPLICATIONS : "receives"
+  JOB_POSTINGS ||--o{ MATCH_SCORES : "scored against"
+  JOB_POSTINGS ||--o{ SAVED_JOBS : "saved by"
+
+  APPLICATIONS ||--o{ INTERVIEW_STAGES : "has stages"
+  APPLICATIONS ||--o{ RECRUITER_NOTES : "annotated in"
+
+  COMPANIES ||--o{ RECRUITER_PROFILES : "employs recruiters"
+  COMPANIES ||--o{ JOB_POSTINGS : "posts jobs"
+  COMPANIES ||--o{ COMPANY_FOLLOWS : "followed by"
+  COMPANIES ||--o{ EMPLOYER_PACKAGE_SUBSCRIPTIONS : "subscribes to"
+  COMPANIES ||--o{ CV_VIEWS : "views CVs via"
+
+  PACKAGES ||--o{ EMPLOYER_PACKAGE_SUBSCRIPTIONS : "purchased as"
+
+  CITIES ||--o{ JOBSEEKER_PROFILES : "location of"
+  CITIES ||--o{ JOB_POSTINGS : "located in"
+  CITIES ||--o{ WORK_EXPERIENCE : "worked in"
+  CITIES ||--o{ COMPANIES : "headquartered in"
+  CITIES ||--o{ JOB_ALERTS : "filtered by"
+  CITIES ||--o{ SALARY_STATS : "analysed by"
+
+  INDUSTRIES ||--o{ WORK_EXPERIENCE : "sector of"
+  INDUSTRIES ||--o{ JOB_POSTINGS : "sector of"
+  INDUSTRIES ||--o{ COMPANIES : "sector of"
+  INDUSTRIES ||--o{ JOB_ALERTS : "filtered by"
+  INDUSTRIES ||--o{ SALARY_STATS : "analysed by"
+
+  JOB_CATEGORIES ||--o{ JOB_POSTINGS : "categorises"
+  JOB_CATEGORIES ||--o| JOB_CATEGORIES : "parent of"
+
+  LANGUAGES ||--o{ USER_LANGUAGES : "spoken as"
+
+  USERS ||--o{ RECRUITER_NOTES : "written by recruiter"
+  USERS ||--o{ RECRUITER_NOTES : "written about candidate"
+    </div>
+  </div>
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'dark',
+    er: {
+      diagramPadding: 30,
+      layoutDirection: 'TB',
+      minEntityWidth: 100,
+      minEntityHeight: 75,
+      entityPadding: 15,
+      useMaxWidth: false
+    },
+    themeVariables: {
+      primaryColor: '#1F3864',
+      primaryTextColor: '#e2e8f0',
+      primaryBorderColor: '#2E75B6',
+      lineColor: '#4a7a9b',
+      secondaryColor: '#161b27',
+      tertiaryColor: '#1a202c',
+      background: '#1a202c',
+      mainBkg: '#1e2a3a',
+      nodeBorder: '#2E75B6',
+      clusterBkg: '#1a202c',
+      titleColor: '#e2e8f0',
+      edgeLabelBackground: '#1a202c',
+      attributeBackgroundColorEven: '#1e2a3a',
+      attributeBackgroundColorOdd: '#162030',
+    }
+  });
+
+  let currentZoom = 1;
+  function zoom(factor) {
+    currentZoom *= factor;
+    currentZoom = Math.max(0.2, Math.min(3, currentZoom));
+    document.getElementById('zoom-container').style.transform = `scale(${currentZoom})`;
+    document.getElementById('zoom-label').textContent = Math.round(currentZoom * 100) + '%';
+  }
+  function resetZoom() {
+    currentZoom = 1;
+    document.getElementById('zoom-container').style.transform = 'scale(1)';
+    document.getElementById('zoom-label').textContent = '100%';
+  }
+
+  // Mouse wheel zoom
+  document.getElementById('diagram-wrap').addEventListener('wheel', function(e) {
+    if (e.ctrlKey || e.metaKey) {
+      e.preventDefault();
+      zoom(e.deltaY < 0 ? 1.05 : 0.95);
+    }
+  }, { passive: false });
+</script>
+
+</body>
+</html>

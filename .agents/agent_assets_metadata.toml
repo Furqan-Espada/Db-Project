@@ -6,3 +6,9 @@ id = "mZRE7p-sTDb6FlcDbh3l2"
 uri = "file://Rozee_Comparison_Missing_Tables.docx"
 type = "word_document"
 title = "Rozee.pk Comparison — Missing Tables & Schema Expansion"
+
+[[outputs]]
+id = "PxIpBD6qBJhZmb1Woy75J"
+uri = "file://Rozee_Schema.txt"
+type = "text"
+title = "Rozee.pk Full PostgreSQL Schema — 30 Tables (.sql)"

@@ -1,0 +1,5 @@
+package_id,name,price_pkr,job_post_limit,cv_search_limit,instamatch_credits,validity_days,description
+d624c0d5-ed05-46e1-ab78-27a83b7c3438,Starter,4999.00,5,50,10,30,Basic plan for small teams
+acf11c5f-8015-4759-bd7d-6b6c6f04df9e,Growth,14999.00,15,200,50,60,Ideal for growing companies
+fc1dc7f4-3951-474e-b64d-97e8e00416b5,Pro,34999.00,50,500,150,90,Full-featured recruiting
+21908093-5c19-44aa-b6f7-570ab06d8a32,Enterprise,74999.00,999,-1,500,180,Unlimited access

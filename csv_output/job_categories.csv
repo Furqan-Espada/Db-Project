@@ -1,0 +1,17 @@
+category_id,name,parent_category_id
+fbe6009f-d365-413c-82df-5945821f59a2,Information Technology,
+efd41ce2-3560-4dd8-9bb4-34c8cced280b,Finance,
+257dc97a-20a0-4b85-9c34-7fd171551328,Engineering,
+181cc84e-6113-41df-a297-112a44b33631,Healthcare,
+21c19f74-e8fa-4a49-a333-16fffd479772,Marketing,
+e373661e-ca17-446d-a000-d38824544524,Education,
+476426c1-4c91-4eb0-8b63-636d80049e0f,Software Development,fbe6009f-d365-413c-82df-5945821f59a2
+12e261be-0f36-465e-9fa0-8c20f9a249c1,Data Science,fbe6009f-d365-413c-82df-5945821f59a2
+2c4aa6a5-c903-4e72-9500-f2b25d0f20b6,Network Engineering,fbe6009f-d365-413c-82df-5945821f59a2
+f025fcef-304f-4a8c-8f40-fb35e4a4853c,Accounting,efd41ce2-3560-4dd8-9bb4-34c8cced280b
+927c0386-c6d3-4b39-9d41-3535d11f2288,Investment Banking,efd41ce2-3560-4dd8-9bb4-34c8cced280b
+520f921f-ea52-455b-a3a6-9ca6e1fee525,Civil Engineering,257dc97a-20a0-4b85-9c34-7fd171551328
+795ab2db-1133-4e1c-b3e6-a179c12275bd,Mechanical Engineering,257dc97a-20a0-4b85-9c34-7fd171551328
+0c8e4fe2-bf2b-4e8d-8b10-616ca765a5b8,Nursing,181cc84e-6113-41df-a297-112a44b33631
+1ead9e9a-8f96-4309-928c-f9d93a46c107,Digital Marketing,21c19f74-e8fa-4a49-a333-16fffd479772
+d75b64db-91b4-4272-9fa8-2f492aba1741,Teaching,e373661e-ca17-446d-a000-d38824544524

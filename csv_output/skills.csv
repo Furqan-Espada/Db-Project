@@ -1,0 +1,31 @@
+skill_id,name,category
+38a6a2e9-a07c-42b6-82a7-2109191dc6a0,Python,Programming
+03fafd2f-17f2-447d-9efb-b3562815b2c3,JavaScript,Programming
+a85caf8d-49f9-440d-8147-9357ff25955c,React,Frontend
+271d6569-e42e-4403-a5bf-cad1d3e81ed0,Node.js,Backend
+7aed13f7-492c-4acd-83ac-b89f153100dd,SQL,Database
+a713cc42-3153-42e6-b0e9-34baad5b3290,PostgreSQL,Database
+1e230394-eac4-4b3c-8a6b-26ad1e35bbbb,Machine Learning,AI/ML
+efa1d7b2-b5d3-453e-85e6-a0a22b65cde4,Data Analysis,Analytics
+8b3423b3-0ab0-4296-85e0-4ebcd89620f3,Excel,Productivity
+1e06728f-fcc5-4457-b413-d65752469487,Communication,Soft Skills
+170140ee-6a3c-4c5c-bbc3-17dcda3bec91,Project Management,Management
+388f79e2-15d7-445c-9632-01b770e4d9c2,Java,Programming
+380426ac-5a54-44a3-b990-3347446f4435,C++,Programming
+526de5f2-7da4-499b-aa9f-442870595cd3,PHP,Programming
+4e5dc074-af5e-4bb8-8e06-e7e916033bfe,Laravel,Backend
+76eb15f7-6e5e-4b15-9e6f-48434b1cab44,Docker,DevOps
+389e73be-e6db-4e7d-b55b-a826813ec765,AWS,Cloud
+9124a078-66c7-4231-ab1e-8c448ebc12b6,Git,DevOps
+498bc0b5-c693-4063-a4ce-b5e23ce48f58,Figma,Design
+26bab90e-dcaf-466f-9103-2b7b19a6b6cc,Photoshop,Design
+4abe3283-6b63-47cd-aff1-3661dfd1f65a,SEO,Marketing
+90086932-31ec-49a6-925d-b7da09c13911,Content Writing,Marketing
+5f2259e7-921d-47fb-9695-2798fe7ef3b1,Sales,Business
+7291c47f-48fb-4be3-80f6-413a4e3c5247,Accounting,Finance
+e8b1694b-d50c-4a9d-b4f0-0f382f387494,Financial Modeling,Finance
+fc27267f-6849-4022-a310-2a5925128a65,AutoCAD,Engineering
+9b533ac3-7a26-4904-a64c-127d029933a7,Civil Engineering,Engineering
+50ee1837-6f04-40d7-a499-5d58ffa0747d,Urdu,Language
+afa91ff2-996d-447e-ba0c-fbeb26bba630,English,Language
+e5256dcd-1308-43f5-a821-a4d50045b0c2,Teamwork,Soft Skills

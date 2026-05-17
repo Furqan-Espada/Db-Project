@@ -1,0 +1,101 @@
+log_id,user_id,table_name,operation,old_values,new_values,logged_at
+d88fbca6-0eee-413f-8453-eb18a7514f8a,ca2f6f0c-4c16-4413-8ae1-807e88a21578,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2026-02-23 14:36:49
+4f3c41e1-4d1d-40a8-978c-cde5035d1062,98146436-8ead-46c6-9ea5-772d2205afcf,jobseeker_profiles,DELETE,"{'"status'": '"pending'"}",,2025-11-09 17:05:23
+4743ff1d-6771-43a0-ace9-407abb60e973,52a7087b-14d4-43a4-8c99-ab52b7fbd8b9,jobseeker_profiles,DELETE,"{'"status'": '"pending'"}",,2025-06-19 22:29:36
+8e13358b-c176-486b-b7a2-5238541bc631,44d1d696-aa73-495f-b7c7-6cb925f14d86,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2026-02-21 06:08:41
+e4c2a0ac-0c7a-4afd-8e59-91d3a058542a,f58c1c67-74f5-4da0-9373-6ea420895e14,users,DELETE,"{'"status'": '"pending'"}",,2026-02-01 05:36:02
+161c011a-2e67-4fda-8271-00b3158c3886,5d690391-d816-43be-a80c-fdb2d11cb7cb,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-09-23 08:12:01
+e6750467-fbf1-4981-ba74-a97b0f8ca3a3,08514437-28c5-4adc-9b2b-1fefb2daa52f,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-03-18 13:57:49
+906c1a3f-12b5-4930-9b9e-349cb6263337,ad4325bd-df4d-4d5e-a657-cd0eca0e12ce,job_postings,INSERT,,"{'"status'": '"reviewed'"}",2025-08-13 22:24:51
+c3edc65b-4729-4323-8281-e3d495ac6c7d,80e20a68-1053-46a0-b7cd-302fc90ad627,job_postings,INSERT,,"{'"status'": '"reviewed'"}",2026-01-08 18:25:33
+8c627de7-1e4a-4210-8d02-5427fe70d259,6878eedf-e671-4b1a-890f-7df9a419bb81,companies,INSERT,,"{'"status'": '"reviewed'"}",2026-03-26 00:05:45
+0054c9b0-3bb4-4848-96b4-5015f742041f,ad4325bd-df4d-4d5e-a657-cd0eca0e12ce,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2026-01-26 05:41:57
+6640f32a-e7d9-4ee5-9b13-6487b9826de3,90a9d186-482c-49a6-b239-b4f579eea7a3,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-06-13 20:30:00
+48c9c3d3-7ab1-4b42-9ca0-31655a715928,44d53017-34d5-4e39-9376-5cc020829d18,users,INSERT,,"{'"status'": '"reviewed'"}",2025-11-14 01:23:51
+34da55a9-70f3-4b37-ab63-63bea37152d2,fce7cfe5-e278-4d7b-af7e-54aaa7e5f40a,job_postings,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-08-03 00:18:40
+37a4916d-4081-4b9e-8176-60b05f8d1f3b,ca2f6f0c-4c16-4413-8ae1-807e88a21578,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-01-17 07:14:06
+15afe71d-48a6-40cf-be9d-5f00693fc403,793d8c87-5653-483a-95ab-4b8e97f8a35b,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-11-04 09:29:46
+a6aaba2c-aa7e-45a7-9c3b-5f4ebd318e1f,7701e1e9-8626-4baf-a06d-746efdbf99cd,users,INSERT,,"{'"status'": '"reviewed'"}",2025-10-05 01:08:51
+8b84293c-04f7-4924-865c-75d2f4680e06,200962be-acdd-4774-989f-9693038dc1f9,applications,DELETE,"{'"status'": '"pending'"}",,2025-11-11 12:23:10
+4539f153-bd9d-4d90-95c7-4ec94074deb1,e988c06d-c9af-462a-aad4-351afdcbd61e,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-09-18 18:06:23
+a71954cc-9a0f-427c-818c-da4432c6a79d,8d30e723-0cfb-4643-8129-a17371a64527,applications,INSERT,,"{'"status'": '"reviewed'"}",2026-03-10 17:05:26
+fa8e573c-0d2b-4dbf-916f-b1d46d07bf16,200962be-acdd-4774-989f-9693038dc1f9,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-02-19 13:49:38
+be81ff14-17c4-4a8a-9188-f5a54d8b5406,ccdfc525-a373-48a0-a44f-89caab65176a,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-11-21 02:45:56
+b8e33719-bd5e-4981-9628-0c6e1eebb452,4dff8b74-8f48-4ee5-a0d5-d025de6581df,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-09-08 20:37:56
+fddc473c-4c99-41c6-9e02-154ea44fcd96,d84c9432-37c6-487d-bb86-26c28019af71,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-04-27 08:01:21
+8e32adbf-f6ed-4118-96ef-316c19ea1654,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,applications,INSERT,,"{'"status'": '"reviewed'"}",2026-01-31 04:27:05
+1c32dbb5-6ba1-4415-a6ec-2cc715c9e238,793d8c87-5653-483a-95ab-4b8e97f8a35b,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-01-11 17:54:40
+771954d4-3530-41f0-bb55-bf5db4dea9e4,8e1771ae-a663-4b41-b85a-4fbbaab08c09,job_postings,INSERT,,"{'"status'": '"reviewed'"}",2026-03-23 01:28:29
+90aac67e-29d5-46a6-bc5d-42edfea6f20c,ef1f858b-e079-41cc-8b2b-a1726310e0ac,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-06-24 23:59:47
+f613348c-fbbd-4676-8be0-a99e9df05295,7baddfc6-73f2-46fc-af71-1d953aad7001,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-07-03 21:52:53
+d238aedd-10e3-4bf9-bc17-99453358b89e,7701e1e9-8626-4baf-a06d-746efdbf99cd,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-04-17 05:21:00
+f3577c11-39be-409d-a918-01967731499c,25accb22-0a57-4ad6-b6dd-e759cfc1b551,companies,INSERT,,"{'"status'": '"reviewed'"}",2025-10-05 05:40:00
+a5119b2f-692e-4317-8a00-076c5c18a675,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,users,DELETE,"{'"status'": '"pending'"}",,2025-10-29 15:42:41
+dab3ac50-445f-458c-b752-7d9ff0d623b6,ca2f6f0c-4c16-4413-8ae1-807e88a21578,companies,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-12-30 00:45:50
+15570d40-db47-4883-8bbc-348884c89591,7648902a-b27b-4c58-814a-a4d59824af50,users,DELETE,"{'"status'": '"pending'"}",,2025-07-30 13:25:59
+5e147096-b601-45c9-b6e1-85719fa3fe25,082e636b-d900-4a79-af0b-059a0513e322,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-10-10 13:54:08
+f425bba1-ee15-439b-b907-5b341ed22c4b,d84c9432-37c6-487d-bb86-26c28019af71,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-06-11 11:28:40
+86e29075-7cdf-44e6-bde8-7f98c33cd6d2,686202f6-815e-4861-86c7-9223357dd495,applications,DELETE,"{'"status'": '"pending'"}",,2025-10-18 22:32:33
+d27cc419-1c0c-424d-a459-3a51a1f64378,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,companies,DELETE,"{'"status'": '"pending'"}",,2026-01-23 01:26:42
+8a7b26e1-fd6f-42cf-b45a-7304da5e59b0,343df1f9-158d-4308-b8a9-76af3e20c84a,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2026-04-29 22:22:31
+59424106-4b13-4cc6-ae42-22a956dc7604,bf4e210f-643a-4759-ab83-8af17b86f043,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-12-14 05:46:10
+53df7004-e07a-46ba-a6c0-837a1acad7b0,200962be-acdd-4774-989f-9693038dc1f9,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-06-23 16:28:25
+354de193-9aa4-489e-a62f-d9b5a2682eab,42398576-01e9-42ff-8738-69490c7fad47,jobseeker_profiles,DELETE,"{'"status'": '"pending'"}",,2025-11-01 18:24:55
+c9ee3b1a-845c-47c7-894a-9ae723b527c4,c55bf5a4-c8ee-49e2-8083-32b06430027a,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-06-25 13:15:30
+0157d6ae-f080-4a4b-8f0b-f9fa10e2b05f,aadcfdd3-e6d8-4559-a34f-124dd8b9a00e,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-06-26 15:46:54
+5892b2cd-f1b6-4706-aaa6-7a8161ebbccc,200962be-acdd-4774-989f-9693038dc1f9,users,DELETE,"{'"status'": '"pending'"}",,2025-05-23 11:12:29
+38639a5b-54c2-48b0-b0f2-20e1d16dd77b,8675a86a-a9e5-4d4c-b833-6e7d57502ca0,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-11-01 17:28:29
+cc64b610-0d5d-48fa-923a-befde24ec9fa,33e2731e-d8db-49e0-a068-e466ae0381fc,companies,DELETE,"{'"status'": '"pending'"}",,2025-08-22 20:07:37
+baaa370f-5630-430c-b931-2d3032fe527f,c57f74eb-3896-49d3-915c-befbaa80912e,job_postings,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-11-07 08:24:41
+33216e4f-c715-490a-8785-22bccd633d84,7baddfc6-73f2-46fc-af71-1d953aad7001,applications,DELETE,"{'"status'": '"pending'"}",,2025-11-27 07:24:58
+41f9b302-9ccd-419e-a7b7-3d264e1283f2,e55d2630-e29c-44bc-8b64-956bd7a1b971,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2025-09-22 22:58:16
+52a19639-0401-40fd-b1c8-528cc033e01e,470b8676-7bf6-4107-856d-3f6d6c0bdcf3,applications,DELETE,"{'"status'": '"pending'"}",,2025-06-29 15:01:16
+624c6aa1-fc36-49f9-83c2-14c0af7c357f,2d97ddae-92ab-4e58-a330-839180ad095d,users,INSERT,,"{'"status'": '"reviewed'"}",2025-12-04 09:38:14
+5f67bcb0-16ff-441d-8b19-690078135e30,e02399cc-bf52-4329-a6d9-2cb34bb05255,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-09-23 20:37:22
+fd8193d1-54b0-495a-a69d-4022510cd9a0,06062749-71be-4084-be3c-291cbc099043,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-08-02 20:43:19
+4cd6ca02-ad7e-444b-b7d8-608c86f429e8,25accb22-0a57-4ad6-b6dd-e759cfc1b551,applications,DELETE,"{'"status'": '"pending'"}",,2025-10-09 09:10:40
+77ee0137-a562-4144-9be8-8c74d3e59d02,e8e1c68f-c4a9-495a-89ba-a67a4ab0c32e,companies,DELETE,"{'"status'": '"pending'"}",,2025-10-21 18:30:57
+1528fc5f-8ff9-4f58-826e-5e3cf30bcb33,b89513fb-9038-4fef-9413-3ac2c9770159,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-09-16 07:16:57
+59f91ceb-6f11-475d-81e8-d979803954e6,06062749-71be-4084-be3c-291cbc099043,companies,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-10-25 14:29:16
+4499d163-ea6e-4418-b528-e975979d452e,ae78ff3d-f828-4ce3-aa58-7efc285cc5e7,users,DELETE,"{'"status'": '"pending'"}",,2025-09-29 11:12:39
+fb8e7fb1-86a6-4531-afb3-e200a337c26a,0758fcef-5943-423a-8a79-6e2d6ebb8fca,users,DELETE,"{'"status'": '"pending'"}",,2025-06-04 08:30:09
+886b4479-6443-48a0-9f53-b35f3d5b7133,7d8e598c-4813-40ea-a971-d03c395fd14c,users,DELETE,"{'"status'": '"pending'"}",,2025-10-04 02:54:10
+38a707a4-3499-4881-a1b1-19ee806665c3,ec9e84b7-4380-475f-abe1-19dc237d8838,companies,INSERT,,"{'"status'": '"reviewed'"}",2026-04-21 08:36:08
+faa5ed50-8370-41f1-b555-e1053ada9da0,44d53017-34d5-4e39-9376-5cc020829d18,companies,DELETE,"{'"status'": '"pending'"}",,2025-07-27 05:45:37
+f9dfa90e-4bdc-4dc4-aa42-1fca1a5095e1,1112fa14-8b0d-4294-97e7-78b8faa275e7,users,DELETE,"{'"status'": '"pending'"}",,2025-07-25 14:28:20
+576477e5-fe9b-4b8f-b44e-cbc290de38f6,ca2f6f0c-4c16-4413-8ae1-807e88a21578,companies,DELETE,"{'"status'": '"pending'"}",,2025-07-20 22:13:50
+294393c8-093e-4894-bff4-8a2ee97c874e,52a7087b-14d4-43a4-8c99-ab52b7fbd8b9,applications,DELETE,"{'"status'": '"pending'"}",,2025-08-26 04:30:02
+3717d5bf-b374-4582-8af1-9ea3ad23b84e,11c8a68c-0a2e-4e42-87af-70119043774d,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-12-25 06:32:48
+395be3f0-8942-4052-9f00-6b5ea50786a7,ec9e84b7-4380-475f-abe1-19dc237d8838,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-11-22 19:53:13
+d19bfdae-3f4e-427b-b95d-3372b64c2e0f,b72a2958-4393-48e6-8797-ccd937d69d1e,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-06-26 06:53:16
+edff0d6d-2537-48a3-bf64-9fb9d3ed3317,5f86de62-8dbf-409f-a992-49fa1cdf5e5c,users,INSERT,,"{'"status'": '"reviewed'"}",2025-06-04 14:57:48
+30a15106-3cc4-4437-9dd7-504f646b0053,f1b5e9f8-50fc-4e60-b822-e1730940bf21,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-08-16 07:59:15
+80591a8a-64eb-4c7a-83ca-f2f621f76db9,835d6d27-05e7-4e0e-9474-455337d95b16,job_postings,DELETE,"{'"status'": '"pending'"}",,2025-06-26 23:31:38
+5ba70778-4ffe-4671-9467-0acee41141f9,9aa559ca-05f1-49f4-b372-6770407d5abc,applications,INSERT,,"{'"status'": '"reviewed'"}",2025-06-28 11:30:42
+72756dbe-f12c-4405-b009-3d2a69c2f107,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,job_postings,DELETE,"{'"status'": '"pending'"}",,2026-04-09 07:40:11
+ec0410a7-021e-442f-aeae-f06299003336,e76d848f-664e-478a-a6ae-a24c63e70cd7,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-12-13 12:08:05
+0b0879d4-2d77-4262-a14e-e9c1ade6d7c2,9cc3d003-1517-4681-85a7-7278f5edf773,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-08-12 14:46:39
+971522c9-cbd3-4183-bd64-100c1e17c126,fe2d46cb-e0b1-44bc-b076-29b0b8e7c211,job_postings,INSERT,,"{'"status'": '"reviewed'"}",2025-11-27 18:20:28
+6c71e2ad-cabb-427a-b62a-474241b84ee5,2d97ddae-92ab-4e58-a330-839180ad095d,users,DELETE,"{'"status'": '"pending'"}",,2025-08-26 00:24:50
+299bb468-b468-4987-82ef-6a0a036095ae,614c2c73-106f-494d-9def-f117e5b7263e,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-04-04 18:27:52
+e617046a-4fdb-45a7-9620-993f3138027f,200962be-acdd-4774-989f-9693038dc1f9,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-01-27 21:33:32
+9c787141-2e27-4e0f-9d0d-72d03b12d0e0,614c2c73-106f-494d-9def-f117e5b7263e,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2025-10-12 04:04:22
+b6b51d37-4380-42f4-891e-cebb05d9b0f3,ec9e84b7-4380-475f-abe1-19dc237d8838,users,DELETE,"{'"status'": '"pending'"}",,2025-10-07 21:44:29
+ada48eac-f6ab-4358-8638-b3b4ed936b55,686202f6-815e-4861-86c7-9223357dd495,users,DELETE,"{'"status'": '"pending'"}",,2025-08-05 17:17:24
+c1918ee8-52cf-46d0-a870-b9d5c5bcf477,e8e1c68f-c4a9-495a-89ba-a67a4ab0c32e,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2026-03-14 09:23:25
+6c0eb1a2-4366-400a-8001-632be4b783ca,5d690391-d816-43be-a80c-fdb2d11cb7cb,applications,INSERT,,"{'"status'": '"reviewed'"}",2026-01-25 00:56:10
+7a623732-472e-4424-99b6-ac01528cff30,f1b5e9f8-50fc-4e60-b822-e1730940bf21,jobseeker_profiles,INSERT,,"{'"status'": '"reviewed'"}",2025-11-14 06:21:29
+3580872c-d5da-4faa-85a1-9f757e660056,33e2731e-d8db-49e0-a068-e466ae0381fc,jobseeker_profiles,DELETE,"{'"status'": '"pending'"}",,2025-07-18 21:00:08
+44b5c00e-8bbf-49c0-ad90-a57343525d57,fe2d46cb-e0b1-44bc-b076-29b0b8e7c211,companies,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-07-30 18:17:45
+52dc381b-7cbe-4164-9eab-1ffb7e35b5c9,8f2529b1-bc32-46af-91a0-7324cd5d38f7,applications,DELETE,"{'"status'": '"pending'"}",,2026-01-05 00:42:28
+d5ebae91-fd52-4fb9-bb29-78b26e10569a,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-01-30 05:08:35
+27285ccf-1527-459b-9c6a-f6295692826e,5d690391-d816-43be-a80c-fdb2d11cb7cb,companies,INSERT,,"{'"status'": '"reviewed'"}",2025-08-30 14:09:13
+c1b0927e-4d12-436d-bb76-563442df15a5,e76d848f-664e-478a-a6ae-a24c63e70cd7,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-05-18 13:02:10
+479edc12-b6f4-4c1f-89eb-3a0b1f97f77d,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,users,INSERT,,"{'"status'": '"reviewed'"}",2025-07-24 00:09:31
+daa8b5f7-e690-4b3d-ae2a-416c1311c08d,ad0d042d-e3e3-448f-9720-4633ac6e9604,jobseeker_profiles,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-04-13 23:12:18
+a7dc3d17-e974-4bee-8fc2-7669f53c20e7,25accb22-0a57-4ad6-b6dd-e759cfc1b551,users,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2025-12-30 15:08:32
+8579e7fc-a182-461a-a36d-f9a567791360,44d1d696-aa73-495f-b7c7-6cb925f14d86,applications,UPDATE,"{'"status'": '"pending'"}","{'"status'": '"reviewed'"}",2026-02-11 08:29:39
+9e19967d-864d-4902-811c-3e1e24d05084,f58c1c67-74f5-4da0-9373-6ea420895e14,users,INSERT,,"{'"status'": '"reviewed'"}",2026-03-24 19:10:23
+e79c9968-1675-45b1-a413-5c333d981cf5,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,companies,DELETE,"{'"status'": '"pending'"}",,2026-01-23 16:05:00
+de18fa84-390e-4532-a757-bb2bc3b5e725,b89513fb-9038-4fef-9413-3ac2c9770159,job_postings,INSERT,,"{'"status'": '"reviewed'"}",2025-07-18 14:01:12
+30ddf77f-a867-41f0-a7e0-23a0408276d5,ae78ff3d-f828-4ce3-aa58-7efc285cc5e7,applications,INSERT,,"{'"status'": '"reviewed'"}",2026-01-21 07:09:48

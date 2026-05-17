@@ -1,0 +1,41 @@
+certification_id,user_id,title,issuing_body,issue_date,expiry_date,credential_url
+243cb62c-910c-4622-99c2-0068501081ec,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,CFA Level 1,Google,2020-02-01,2021-11-28,https://www.credly.com/badges/baae8b2c
+c14d009d-da9a-4841-bd03-94d96f8453a5,8f2529b1-bc32-46af-91a0-7324cd5d38f7,Google Data Analytics,Google,2022-10-30,2024-01-14,https://www.credly.com/badges/532664e6
+fa65b62e-c3fa-43b1-856d-7497a361d550,98146436-8ead-46c6-9ea5-772d2205afcf,Scrum Master,AWS,2021-11-18,2023-03-20,https://www.credly.com/badges/ae7151a2
+37e00bbf-022b-4813-b1c6-a0597749f56b,fce7cfe5-e278-4d7b-af7e-54aaa7e5f40a,Oracle SQL Certified,Cisco,2021-05-27,2023-03-08,https://www.credly.com/badges/d6705a50
+5574ae07-927b-490b-8fe5-9a38b4838678,05d82f52-c13d-4578-923e-9c84c141f52a,Tableau Desktop Specialist,Cisco,2019-09-24,2021-03-06,https://www.credly.com/badges/0ea93120
+dbeb3a2a-e283-46c0-9904-09f9edb22d69,4fd5e63e-f43a-4015-a41c-fabe5d3649d9,CFA Level 1,Google,2019-01-12,2020-12-15,https://www.credly.com/badges/98d24db8
+bb8cd35d-d950-4959-8b9d-43c1ee1310b4,80e20a68-1053-46a0-b7cd-302fc90ad627,Microsoft Azure Fundamentals,Tableau,2019-03-23,2020-08-26,https://www.credly.com/badges/20a683c9
+48fa4f8d-7cc4-4194-8f8a-3265001aa718,7701e1e9-8626-4baf-a06d-746efdbf99cd,Tableau Desktop Specialist,Cisco,2019-04-15,2022-01-14,https://www.credly.com/badges/756b2eff
+865866d0-976b-4614-b171-6fc42bee56f9,42398576-01e9-42ff-8738-69490c7fad47,Oracle SQL Certified,Microsoft,2021-10-01,2024-05-09,https://www.credly.com/badges/f94dd6e5
+868618a7-205e-42d3-b8b0-4034857357a6,ccdfc525-a373-48a0-a44f-89caab65176a,Microsoft Azure Fundamentals,Oracle,2019-05-30,2022-05-23,https://www.credly.com/badges/7f9f0206
+5c60876e-c2cb-4db5-aa7f-c1597f2e67b3,ad0d042d-e3e3-448f-9720-4633ac6e9604,Oracle SQL Certified,PMI,2020-03-26,2021-09-30,https://www.credly.com/badges/5ab578e4
+7f77f387-4e6d-40e2-99b7-7135fa1688f2,44d1d696-aa73-495f-b7c7-6cb925f14d86,Scrum Master,Oracle,2021-10-31,2023-04-12,https://www.credly.com/badges/c5a19416
+c9dc3c19-ad25-4bc6-886d-77991909b1de,52a7087b-14d4-43a4-8c99-ab52b7fbd8b9,PMP,Microsoft,2022-01-04,2024-02-21,https://www.credly.com/badges/7b67534b
+70c44dda-9384-42be-9d4c-05e34a5ad9a7,33e2731e-d8db-49e0-a068-e466ae0381fc,Microsoft Azure Fundamentals,Microsoft,2020-03-29,2021-11-02,https://www.credly.com/badges/03644cf4
+31338f6e-1c74-4abd-9aa0-6c6b85fbb952,a473bdba-d0c5-4c98-bf2a-78fa4a8fc4c8,Meta Front-End Developer,Tableau,2021-01-08,2022-11-04,https://www.credly.com/badges/2dc2e3d0
+996cea67-0a7d-4a4a-bc42-f1c754752d03,bf4e210f-643a-4759-ab83-8af17b86f043,Oracle SQL Certified,AWS,2021-12-22,2024-04-21,https://www.credly.com/badges/4d118650
+c157de49-7a36-4923-8446-71f0e232087d,ae78ff3d-f828-4ce3-aa58-7efc285cc5e7,Microsoft Azure Fundamentals,CFA Institute,2019-08-23,2022-07-07,https://www.credly.com/badges/88fc6781
+479d71b4-f59a-4b0b-ac83-f7dd683ba516,ca2f6f0c-4c16-4413-8ae1-807e88a21578,Tableau Desktop Specialist,Tableau,2020-05-07,2023-02-23,https://www.credly.com/badges/55794074
+3f00c6ae-22c4-48c4-a6dc-2299f9e43637,793d8c87-5653-483a-95ab-4b8e97f8a35b,Microsoft Azure Fundamentals,Scrum.org,2020-05-14,2021-06-23,https://www.credly.com/badges/5aedcfce
+c038f520-ab08-4101-9fd9-7bf14f3e4cc2,2d97ddae-92ab-4e58-a330-839180ad095d,Cisco CCNA,Oracle,2019-08-21,2021-09-19,https://www.credly.com/badges/54e0dc51
+c97c19bb-fcdc-43fc-b448-74c4b8d33e53,06062749-71be-4084-be3c-291cbc099043,Oracle SQL Certified,Microsoft,2020-08-02,2021-08-27,https://www.credly.com/badges/98350eca
+1a7ffb08-3dde-4e58-8083-3ec4183c9501,e55d2630-e29c-44bc-8b64-956bd7a1b971,CFA Level 1,CFA Institute,2021-11-19,2024-04-22,https://www.credly.com/badges/1c3587c4
+f2cb8b52-77cc-4633-a4ee-3839970d749c,1f95ee40-8255-40d3-aa20-abd311effafb,Meta Front-End Developer,Microsoft,2019-03-31,2021-01-27,https://www.credly.com/badges/d94a691a
+7b223f25-b0a4-4dc1-a5f4-0919308a221b,5f86de62-8dbf-409f-a992-49fa1cdf5e5c,PMP,Google,2021-11-18,2023-02-10,https://www.credly.com/badges/89f6506b
+64d7d187-ccd7-4a74-a31f-4fbb80cd603d,fe2d46cb-e0b1-44bc-b076-29b0b8e7c211,AWS Certified Developer,PMI,2022-01-06,2024-07-05,https://www.credly.com/badges/e46d15e1
+27b41c36-413e-48dd-bd8f-5d9f859668d6,686202f6-815e-4861-86c7-9223357dd495,Meta Front-End Developer,Scrum.org,2020-03-07,2023-01-22,https://www.credly.com/badges/edda3abb
+1624a85e-817e-4a1c-870f-a1d04b2a1c0e,d84c9432-37c6-487d-bb86-26c28019af71,Oracle SQL Certified,Scrum.org,2019-08-01,2021-02-26,https://www.credly.com/badges/6873f650
+1a77e530-af73-45f7-94e5-e7c8e8955469,b72a2958-4393-48e6-8797-ccd937d69d1e,Google Data Analytics,AWS,2022-08-17,2023-10-29,https://www.credly.com/badges/739d4c93
+12b63301-8a76-4a9c-a49c-fb0c4a8f0164,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,AWS Certified Developer,PMI,2021-07-29,2023-07-03,https://www.credly.com/badges/1ca72e8b
+fb410ffe-b42c-4df5-943f-fbdf9ce47d3f,7648902a-b27b-4c58-814a-a4d59824af50,Google Data Analytics,Cisco,2019-05-31,2020-07-24,https://www.credly.com/badges/57e9bf39
+6abd5c66-4eab-4cef-b515-dacdc9d64d0c,8b4db567-6b55-4919-a469-a526a882589a,Tableau Desktop Specialist,Meta,2022-02-16,2023-04-29,https://www.credly.com/badges/7c9f6060
+a7d46d62-a990-463a-8212-f8acc4def32a,ec9e84b7-4380-475f-abe1-19dc237d8838,Scrum Master,CFA Institute,2020-06-13,2022-08-04,https://www.credly.com/badges/dd8324da
+518e0117-aaaa-495b-876b-2be92aaa2eb0,e76d848f-664e-478a-a6ae-a24c63e70cd7,Scrum Master,Microsoft,2022-07-14,2024-08-31,https://www.credly.com/badges/e7b1ca77
+6b55c692-be86-4f19-871f-e6a62eed9d86,d3f90615-2718-4e1d-831b-156e4ce6fa77,PMP,Oracle,2019-02-04,2021-03-08,https://www.credly.com/badges/7574bf23
+ea1a2b7b-faae-458c-8d14-03f5989c12b5,9b93a8d5-8ff4-4b43-9181-12e40f69608d,Tableau Desktop Specialist,PMI,2019-01-13,2021-10-30,https://www.credly.com/badges/ffe4f7e5
+5ae1d12e-2290-4d1e-a303-56dc6beb80dd,25accb22-0a57-4ad6-b6dd-e759cfc1b551,PMP,Microsoft,2022-04-14,2023-05-30,https://www.credly.com/badges/b51c1438
+4797ccdb-745d-456b-bb20-9d5041a6029b,835d6d27-05e7-4e0e-9474-455337d95b16,Cisco CCNA,Cisco,2021-10-26,2023-02-11,https://www.credly.com/badges/25079692
+9111e5c0-96ea-4208-a90d-1857f89b9bc5,0758fcef-5943-423a-8a79-6e2d6ebb8fca,Cisco CCNA,CFA Institute,2022-05-27,2023-08-23,https://www.credly.com/badges/1c39c3fa
+ec848fbc-393b-44c7-b132-1afcdfe1a63d,8d30e723-0cfb-4643-8129-a17371a64527,AWS Certified Developer,CFA Institute,2021-02-20,2023-03-31,https://www.credly.com/badges/f1c03a34
+da3f324d-b9ab-4fa5-b4e9-53f55c93ba5c,65c670c6-2728-485b-877c-9769a8f95ce9,Meta Front-End Developer,Google,2019-11-17,2022-05-16,https://www.credly.com/badges/2f24adfc

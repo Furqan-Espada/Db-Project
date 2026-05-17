@@ -1,0 +1,92 @@
+education_id,user_id,degree_title,institution,field_of_study,start_year,end_year,grade
+8685c4e7-fd2a-4e22-8fd5-65e9d7b8a7b1,fe2d46cb-e0b1-44bc-b076-29b0b8e7c211,MBBS,IBA Karachi,Engineering,2017,2020,
+9b948f24-b841-4abb-96a7-32e1c7160678,607fcf49-7456-44c6-bb4e-1a3f1429739e,MS Software Engineering,LUMS,Medicine,2019,2021,3.8/4.0
+0ca5a049-5945-4b62-8db4-c516edb555e4,607fcf49-7456-44c6-bb4e-1a3f1429739e,BS Electrical Engineering,GIK Institute,,2013,2016,First Division
+d6b725c8-1fc9-46ec-97af-15ef489b6c1c,f1b5e9f8-50fc-4e60-b822-e1730940bf21,LLB,COMSATS,Business,2017,2020,3.5/4.0
+7dc0f3be-beda-4531-8b92-7ef051a4e97e,f1b5e9f8-50fc-4e60-b822-e1730940bf21,B.Eng Civil,FAST NUCES,Computer Science,2019,2021,3.2/4.0
+6bead36b-7064-4a4f-99a5-3aa992dbdc70,ca2f6f0c-4c16-4413-8ae1-807e88a21578,MBBS,COMSATS,Law,2018,2021,A+
+0567e5ca-3d6d-4bf2-87de-cbec84e3f7f2,b071b687-6c6d-4983-b0e0-292fd635db95,BBA,Punjab University,Computer Science,2018,2022,3.2/4.0
+367dba5d-1d62-465d-9b0c-d781b959a72b,b071b687-6c6d-4983-b0e0-292fd635db95,BS Electrical Engineering,LUMS,,2018,2021,First Division
+b9368d29-964f-440a-b888-455fa945de97,c55bf5a4-c8ee-49e2-8083-32b06430027a,B.Eng Civil,FAST NUCES,Computer Science,2016,2018,First Division
+fa173e25-9ed9-4da5-8b9f-8e88604b6ad7,8f2529b1-bc32-46af-91a0-7324cd5d38f7,LLB,NUST,Business,2015,2017,3.8/4.0
+4df6edd2-348c-4a1d-8528-8f52d92c0b66,8f2529b1-bc32-46af-91a0-7324cd5d38f7,MS Software Engineering,Punjab University,,2019,2023,First Division
+7d1d20e6-04e9-412f-9792-f48ceb921768,4dff8b74-8f48-4ee5-a0d5-d025de6581df,B.Eng Civil,UET Lahore,Computer Science,2019,2021,Second Division
+40c56135-2aca-4a4e-9767-e9421f4cb06d,470b8676-7bf6-4107-856d-3f6d6c0bdcf3,B.Com,GIK Institute,Business,2018,2021,3.2/4.0
+4b3f983a-50eb-4383-ac89-5399fd6826c9,470b8676-7bf6-4107-856d-3f6d6c0bdcf3,B.Com,FAST NUCES,Law,2014,2017,A+
+57fd2c9b-7e1a-4726-9e3f-63879c9080c3,9c21c4b3-0839-4c0f-ab04-dc9ab3378b33,BS Computer Science,FAST NUCES,,2012,2015,3.8/4.0
+4040a56d-62b8-494c-adb0-5842586275df,1112fa14-8b0d-4294-97e7-78b8faa275e7,MS Software Engineering,UET Lahore,,2013,2015,First Division
+8ee8d72d-f9e9-4d5d-bd15-3ac0f6a95829,9b93a8d5-8ff4-4b43-9181-12e40f69608d,BS Mathematics,UET Peshawar,Medicine,2012,2016,First Division
+e71373b5-3194-4b91-873d-1c3c5c656d41,9b93a8d5-8ff4-4b43-9181-12e40f69608d,BBA,UET Peshawar,Law,2011,2015,A+
+78724bd3-30be-41dc-b1d2-4681df299447,d84c9432-37c6-487d-bb86-26c28019af71,LLB,Aga Khan University,Law,2015,2018,3.5/4.0
+d755b71b-1031-45a0-9c32-7822b2166892,d84c9432-37c6-487d-bb86-26c28019af71,LLB,Aga Khan University,Computer Science,2011,2015,
+e24cd538-4739-4824-b118-9e7f029644b7,30f4deb0-fa2d-446b-9f07-e23145a00df2,B.Eng Civil,COMSATS,Engineering,2013,2016,3.2/4.0
+4b9322d5-fbea-412a-8e22-946f27801509,30f4deb0-fa2d-446b-9f07-e23145a00df2,BS Electrical Engineering,Punjab University,Business,2014,2017,Second Division
+a6379cab-99ab-4082-b9b9-7326e85e2b5c,7701e1e9-8626-4baf-a06d-746efdbf99cd,BS Computer Science,LUMS,Computer Science,2015,2019,A+
+79aa9ed9-fca7-4477-9d98-6af37799bf58,7701e1e9-8626-4baf-a06d-746efdbf99cd,BBA,IBA Karachi,Medicine,2017,2019,First Division
+76798d86-d518-43b0-ab92-09ba07ef589e,52a7087b-14d4-43a4-8c99-ab52b7fbd8b9,MBBS,FAST NUCES,Business,2016,2018,
+0f5b3318-7483-423f-acd6-a60da8823cf9,686202f6-815e-4861-86c7-9223357dd495,MS Software Engineering,FAST NUCES,Computer Science,2011,2015,3.2/4.0
+b3189699-d945-4a03-91e6-ca587abc76fb,686202f6-815e-4861-86c7-9223357dd495,MBA,FAST NUCES,,2012,2014,A+
+a95c2b86-fb77-45fe-b81e-da0f8132e1b5,0758fcef-5943-423a-8a79-6e2d6ebb8fca,BBA,NUST,Computer Science,2016,2020,3.8/4.0
+fb2299f3-11ab-4b8a-9efd-f2d64c594485,bf4e210f-643a-4759-ab83-8af17b86f043,B.Com,UET Lahore,Law,2011,2013,A+
+a9017732-bbf8-45ed-9f58-e21df0d387aa,bf4e210f-643a-4759-ab83-8af17b86f043,BS Computer Science,Aga Khan University,Computer Science,2017,2019,
+9b9ef375-8912-45a2-a50f-ceeeee69c8eb,8d30e723-0cfb-4643-8129-a17371a64527,BBA,UET Lahore,Medicine,2012,2015,3.5/4.0
+1d7965e2-24ac-4343-bcfb-32aabb335aa9,8d30e723-0cfb-4643-8129-a17371a64527,MS Software Engineering,Aga Khan University,Engineering,2011,2013,3.8/4.0
+c8f54dda-eb41-4f18-b380-bd4b58049434,e55d2630-e29c-44bc-8b64-956bd7a1b971,MBBS,NUST,Law,2012,2016,Second Division
+1a6b5542-4ba2-4ec3-a1a4-1f4696c66119,e55d2630-e29c-44bc-8b64-956bd7a1b971,MBBS,COMSATS,Engineering,2010,2014,A+
+118161a6-7dcb-424c-8881-d1587f0e58ec,200962be-acdd-4774-989f-9693038dc1f9,B.Com,COMSATS,Business,2012,2015,3.5/4.0
+4849d622-967e-4b88-be2e-571fcc873a97,ec9e84b7-4380-475f-abe1-19dc237d8838,B.Com,UET Peshawar,Engineering,2012,2014,First Division
+1a84e15f-262f-47b0-9aab-9377a7c235a3,e988c06d-c9af-462a-aad4-351afdcbd61e,BS Mathematics,NUST,Business,2012,2014,Second Division
+5d2f71e4-a41f-409f-886e-e089a7cb5b48,e988c06d-c9af-462a-aad4-351afdcbd61e,B.Com,FAST NUCES,,2019,2023,3.5/4.0
+2e7463e3-6198-40b3-8ee9-f416cfde7633,44d1d696-aa73-495f-b7c7-6cb925f14d86,B.Com,GIK Institute,Business,2013,2017,A+
+5ac99684-1f63-4bc8-8a9f-ee7ba560e1cb,44d1d696-aa73-495f-b7c7-6cb925f14d86,BS Computer Science,UET Lahore,Medicine,2016,2019,First Division
+b2e743b5-243f-4a97-b38c-69cf89fcb49f,8e1771ae-a663-4b41-b85a-4fbbaab08c09,B.Com,NUST,Law,2013,2016,3.5/4.0
+7099391e-c216-487a-ab1c-3c9112619fea,06062749-71be-4084-be3c-291cbc099043,MBA,Punjab University,Medicine,2015,2017,3.2/4.0
+2d5f1c21-95a5-4a8c-af71-ba4cfce33236,06062749-71be-4084-be3c-291cbc099043,MBBS,COMSATS,Computer Science,2018,2022,3.5/4.0
+b998b577-3a4d-4acc-b16c-b0fbc835a52c,7333a73e-5fbe-44b6-96eb-f697c336a3c4,B.Eng Civil,LUMS,Computer Science,2010,2013,
+d37afbde-6048-4781-9c1f-6a58af9a3e8f,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,BS Electrical Engineering,UET Peshawar,Medicine,2018,2021,A+
+84c669c2-1d75-4606-ba45-f2752793dfbf,dda0e5f5-c4bf-4700-bf25-4b41a1fbd6da,BS Electrical Engineering,GIK Institute,Law,2016,2018,3.8/4.0
+f4330b41-f01f-4d37-a422-f12360fbf494,7648902a-b27b-4c58-814a-a4d59824af50,BBA,GIK Institute,Business,2011,2014,
+1d4ef5e4-37b2-4ced-ada0-e7563634648e,7648902a-b27b-4c58-814a-a4d59824af50,MS Software Engineering,UET Peshawar,Law,2012,2016,A+
+baa2dc58-273a-4290-8f23-74a5d29bb615,d3f90615-2718-4e1d-831b-156e4ce6fa77,MBA,UET Lahore,Computer Science,2014,2018,3.8/4.0
+7d9b448e-5e46-4573-b6d5-c8909306df26,b89513fb-9038-4fef-9413-3ac2c9770159,LLB,Punjab University,Law,2016,2018,3.5/4.0
+e1f6f8f6-6014-4b6e-86fc-e5052969de27,33e2731e-d8db-49e0-a068-e466ae0381fc,BS Computer Science,IBA Karachi,,2012,2014,3.5/4.0
+906221c5-fc8a-435f-a3ad-da81cce59cfc,33e2731e-d8db-49e0-a068-e466ae0381fc,MS Software Engineering,GIK Institute,Law,2012,2015,
+0b05fb3b-e462-4298-8b79-9ffccf7d5ba2,e8e1c68f-c4a9-495a-89ba-a67a4ab0c32e,MBBS,FAST NUCES,,2012,2015,3.5/4.0
+13585826-4c21-4b23-8eeb-7d251abef006,e8e1c68f-c4a9-495a-89ba-a67a4ab0c32e,MBA,FAST NUCES,Law,2010,2013,3.5/4.0
+08737591-700a-4f5b-ba0c-2d0a35c24958,a2e936a7-7186-45c8-8868-f4d826eeb864,BBA,COMSATS,Medicine,2019,2023,Second Division
+9b51e3e0-527e-4959-8770-efe5e3187805,a2e936a7-7186-45c8-8868-f4d826eeb864,LLB,Punjab University,Business,2015,2017,3.2/4.0
+34f9bb65-dcc9-4698-a5e4-cf5f598157d6,80e20a68-1053-46a0-b7cd-302fc90ad627,B.Com,NUST,Business,2014,2016,A+
+cc7beb36-e22b-4bd4-a49d-e09208ac6c2b,e918ae65-c7bf-4494-a8d4-4c983a923cf4,B.Eng Civil,LUMS,Medicine,2010,2012,3.2/4.0
+180aeca1-cbc3-466d-bdcc-883e94aaed9b,d8b0e2bb-459d-48f1-b42f-31a6bbddf77e,BS Computer Science,GIK Institute,,2012,2014,A+
+163a7b29-ac41-41aa-b58e-7cdd46172809,d8b0e2bb-459d-48f1-b42f-31a6bbddf77e,MS Software Engineering,UET Lahore,Medicine,2016,2018,A+
+e4fd95df-e69b-4664-84f5-510e9a2e84ac,8b4db567-6b55-4919-a469-a526a882589a,B.Com,Aga Khan University,Computer Science,2014,2016,Second Division
+25434c5b-6c81-435f-a18f-8ab5a8cca2df,8b4db567-6b55-4919-a469-a526a882589a,B.Eng Civil,GIK Institute,Computer Science,2010,2012,First Division
+233cc729-cca4-4d7d-8d1b-91a80c76cf4e,98146436-8ead-46c6-9ea5-772d2205afcf,BS Mathematics,Aga Khan University,Computer Science,2017,2020,Second Division
+3e070759-ff1e-4403-8987-866c6b10f27d,25accb22-0a57-4ad6-b6dd-e759cfc1b551,B.Eng Civil,FAST NUCES,Law,2010,2013,
+901c467e-6f92-4566-bb2e-f0c5fffba9a3,25accb22-0a57-4ad6-b6dd-e759cfc1b551,B.Com,UET Lahore,Medicine,2014,2018,3.2/4.0
+16daa1c8-e5a6-4788-bdab-34b387eb7162,ccdfc525-a373-48a0-a44f-89caab65176a,BS Electrical Engineering,UET Lahore,Business,2013,2017,3.5/4.0
+d79beb0d-10f7-4508-b9af-ff6b2e34e63e,ccdfc525-a373-48a0-a44f-89caab65176a,B.Eng Civil,GIK Institute,Engineering,2016,2018,A+
+a24001bb-7f69-4c65-97ec-8c85c008de19,ae78ff3d-f828-4ce3-aa58-7efc285cc5e7,MBA,FAST NUCES,Computer Science,2015,2017,3.8/4.0
+a142f69b-774e-446d-9c21-0bd94b71938f,05d82f52-c13d-4578-923e-9c84c141f52a,BS Computer Science,IBA Karachi,,2016,2019,3.2/4.0
+5ecd9b91-972e-4b97-9698-c32ee8a1b7d5,a473bdba-d0c5-4c98-bf2a-78fa4a8fc4c8,BS Electrical Engineering,UET Peshawar,,2010,2012,3.2/4.0
+90f9e264-0054-41dd-b13f-5bf8b51d0e5c,835d6d27-05e7-4e0e-9474-455337d95b16,BBA,GIK Institute,Business,2011,2015,A+
+b4d5c882-8c84-4210-83f0-cd03fd84d6e3,835d6d27-05e7-4e0e-9474-455337d95b16,B.Com,Punjab University,Computer Science,2016,2018,First Division
+08416211-1b07-4b80-9f09-3af9d2200f99,e76d848f-664e-478a-a6ae-a24c63e70cd7,BS Mathematics,Aga Khan University,Medicine,2013,2016,A+
+8cb6e4a3-32f4-44b7-a0de-9760267523fb,4fd5e63e-f43a-4015-a41c-fabe5d3649d9,BS Mathematics,UET Lahore,Computer Science,2015,2018,3.8/4.0
+a1c2076c-d6f1-4710-af9d-40ed9e42fd6c,4fd5e63e-f43a-4015-a41c-fabe5d3649d9,BBA,IBA Karachi,Computer Science,2012,2016,3.8/4.0
+6430b7e5-907c-450d-b325-dc411603f178,793d8c87-5653-483a-95ab-4b8e97f8a35b,MBA,NUST,Law,2017,2020,3.2/4.0
+f948e943-d20e-41b4-936a-17bc970f12a5,793d8c87-5653-483a-95ab-4b8e97f8a35b,BS Mathematics,COMSATS,Engineering,2013,2016,
+613fb51c-abc6-4b98-a665-ca6adde6e47c,1f95ee40-8255-40d3-aa20-abd311effafb,BS Mathematics,Punjab University,Computer Science,2011,2013,3.8/4.0
+d0870274-2d44-438a-a0bd-ca1f1b1fcd0e,2d97ddae-92ab-4e58-a330-839180ad095d,B.Eng Civil,Aga Khan University,Medicine,2012,2014,Second Division
+95924628-f748-4899-91b9-a827aa76b5cd,2d97ddae-92ab-4e58-a330-839180ad095d,BS Mathematics,FAST NUCES,Business,2010,2014,3.5/4.0
+e35a9247-b602-40f6-b074-3c9ac59b7ba1,90a9d186-482c-49a6-b239-b4f579eea7a3,BS Electrical Engineering,UET Lahore,Computer Science,2017,2021,First Division
+1200276b-bf3d-4a18-b243-accd7f9fcd48,90a9d186-482c-49a6-b239-b4f579eea7a3,BBA,LUMS,Computer Science,2011,2013,
+7752531e-9c1b-4623-b34e-04054d50ade2,c0c477b5-07d8-4fb0-bfb1-f1966dbb12af,MBA,Aga Khan University,,2012,2014,A+
+43dbbdf8-7d78-4eb1-a421-c887904cfe19,ad0d042d-e3e3-448f-9720-4633ac6e9604,BS Mathematics,NUST,Computer Science,2019,2023,3.5/4.0
+171d1d06-6c54-4545-89ff-ce81aa69d13b,42398576-01e9-42ff-8738-69490c7fad47,BBA,Aga Khan University,Computer Science,2017,2019,3.5/4.0
+d93921ce-5e4d-4c84-a08f-6cdb6eb1c265,fce7cfe5-e278-4d7b-af7e-54aaa7e5f40a,B.Com,UET Peshawar,,2010,2012,First Division
+8238962c-fd22-465f-a7da-4a103e26306f,fce7cfe5-e278-4d7b-af7e-54aaa7e5f40a,MBA,UET Peshawar,Business,2017,2019,3.2/4.0
+ddd6c4e7-7b5c-4f4c-a14b-a677cf177d4c,5f86de62-8dbf-409f-a992-49fa1cdf5e5c,BS Mathematics,COMSATS,Business,2012,2015,3.5/4.0
+9d88ab2a-77f6-46ab-8d21-d038cbb947e5,7b2c402b-31a4-4520-9c27-ec7ad4b0d7a9,MBA,GIK Institute,Medicine,2014,2017,3.5/4.0
+27d10e61-f76e-4f84-862b-2b220e6c9f28,65c670c6-2728-485b-877c-9769a8f95ce9,MBBS,UET Peshawar,Business,2014,2017,A+
+25361df1-5418-4829-9365-71b3aa8a2b8e,b72a2958-4393-48e6-8797-ccd937d69d1e,MBA,Aga Khan University,Medicine,2018,2020,Second Division
